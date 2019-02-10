@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>*~ H a R i B o ~CoLLeCtOr~*</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four <b style="color: orange">H a r i b o</b> packs below. By clicking on one, you will
+                    add a specific amount of points to
+                    your total score.</p>
+                <p>You win the game by matching your total Score to the Target number, you lose the game if your total
+                    score goes above the Target number.</p>
+                <p>The value of each Haribo pack is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each Haribo pack.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>Target: <span id="targetNumber"></span></h1>
+            </div>
+            <div class="col">
+                <h3>Wins: <span id="winsNumber"></span></h3>
+                <h3>Losses: <span id="lossesNumber"></span></h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div id="images"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>Your score is: <span id="scoreCounter"></span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT  -->
+    <!-- ========================================= -->
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

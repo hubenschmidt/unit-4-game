@@ -1,0 +1,36 @@
+.haribo-image {
+    width: 250px;
+    height: 250px;
+}
+
+.container{
+    height: 100vh;
+    margin-top:5vh;
+}
+
+.col-6, .col-12{
+   
+    border: dotted;
+    color: yellow;
+    border-width: 5px;
+}
+
+h1{
+    color: blue;
+    font-size: 3em;
+}
+
+h3{
+    color: orange;
+    font-size: 3em;
+}
+
+p{
+    color: blueviolet;
+    font-size: 1.5em;
+}
+
+.rowheader{
+    height: 20%;
+}
+
