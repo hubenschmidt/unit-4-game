@@ -1,6 +1,6 @@
 .haribo-image {
-    width: 250px;
-    height: 250px;
+    width: 275x;
+    height: 275px;
 }
 
 .container{
@@ -10,13 +10,16 @@
 
 .col-6, .col-12{
    
-    border: dotted;
-    color: yellow;
-    border-width: 5px;
+    border: solid;
+    color: #65C2E8;
+    border-width: 4px;
 }
 
+.title{
+    font-size: 5em;
+}
 h1{
-    color: blue;
+    color: #76C25E;
     font-size: 3em;
 }
 
@@ -26,7 +29,7 @@ h3{
 }
 
 p{
-    color: blueviolet;
+    color: #65C2E8;
     font-size: 1.5em;
 }
 
@@ -34,3 +37,58 @@ p{
     height: 20%;
 }
 
+body, html {
+    height: 100%;
+  }
+  
+.bg {
+    /* The image used */
+    background-image: url("419.jpg");
+
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  img {
+    opacity: 0.65;
+   
+  }
+  
+  img:hover {
+    opacity: .85;
+    
+  }
+
+  .instructions{
+      border-top: none;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  .target{
+      border-top: none;
+  }
+
+  .winsLosses {
+      border-bottom: none;
+      border-top: none;
+      padding: 10px;
+
+  }
+
+  .imageDiv {
+      border-top: none;
+      border-bottom: none;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  .scoreDiv{
+      border-top: none;
+  }
+  
