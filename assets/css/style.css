@@ -11,15 +11,21 @@
 .col-6, .col-12{
    
     border: solid;
-    color: #65C2E8;
+    border-color: white;
     border-width: 4px;
 }
 
 .title{
     font-size: 5em;
 }
+
+.titleBox{
+    padding: 100px;
+    background-color: rgb(177, 226, 245)
+
+}
 h1{
-    color: #76C25E;
+    color: rgb(255, 200, 0);
     font-size: 3em;
 }
 
@@ -29,8 +35,10 @@ h3{
 }
 
 p{
-    color: #65C2E8;
+    color: white;
     font-size: 1.5em;
+    line-height: 1.4em;
+
 }
 
 .rowheader{
@@ -68,16 +76,21 @@ body, html {
       border-top: none;
       padding-top: 20px;
       padding-bottom: 20px;
+      background-color:rgb(0, 179, 250);    
   }
 
   .target{
       border-top: none;
+      background-color: rgb(209, 231, 240)
+      
   }
 
   .winsLosses {
       border-bottom: none;
       border-top: none;
       padding: 10px;
+      color:#65C2E8;  
+      
 
   }
 
@@ -90,5 +103,11 @@ body, html {
 
   .scoreDiv{
       border-top: none;
+      background-color: #65C2E8;  
+  }
+
+  #images{
+      align-content: center;
+
   }
   
