@@ -14,58 +14,58 @@
         crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-
 </head>
 
 <body>
-        <div class="bg">
+    <div class="bg">
 
-    <div class="container">
-        <div class="row ">
-            <div class="col-12 titleBox">
-                <h1 class="text-center title">Haribo Collector</h1>
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 titleBox">
+                    <h1 class="text-center title">Haribo Collector</h1>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 instructions">
-                <p>You will be given a random number at the start of the game.</p>
-                <p>There are four <b style="color: orange">H a r i b o</b> packs below. By clicking on one, you will
-                    add a specific amount of points to
-                    your total score.</p>
-                <p>You win the game by matching your total Score to the Target number, you lose the game if your total
-                    score goes above the Target number.</p>
-                <p>The value of each Haribo pack is hidden from you until you click on it.</p>
-                <p>Each time when the game starts, the game will change the values of each Haribo pack.</p>
+            <div class="row">
+                <div class="col-12 instructions">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four <b style="color: orange">H a r i b o</b> packs below. By clicking on one, you
+                        will
+                        add a specific amount of points to
+                        your total score.</p>
+                    <p>You win the game by matching your total Score to the Target number, you lose the game if your
+                        total
+                        score goes above the Target number.</p>
+                    <p>The value of each Haribo pack is hidden from you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the values of each Haribo pack.</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 target">
-                <h3>Target: <span id="targetNumber"></span></h3>
+            <div class="row">
+                <div class="col-12 target">
+                    <h3>Target: <span id="targetNumber"></span></h3>
+                </div>
+                <div class="col-12 winsLosses">
+                    <h2>Wins: <span id="winsNumber"></span></h2>
+                    <h2>Losses: <span id="lossesNumber"></span></h2>
+                </div>
             </div>
-            <div class="col-12 winsLosses">
-                <h2>Wins: <span id="winsNumber"></span></h2>
-                <h2>Losses: <span id="lossesNumber"></span></h2>
+
+            <div class="row">
+                <div class="col-12 imageDiv">
+                    <div id="images"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 scoreDiv">
+                    <h1>Score: <span id="scoreCounter"></span></h1>
+                </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12 imageDiv">
-                <div id="images"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 scoreDiv">
-                <h1>Score: <span id="scoreCounter"></span></h1>
-            </div>
-        </div>
     </div>
-
-</div>
 
     <!-- JAVASCRIPT  -->
     <!-- ========================================= -->
- 
+
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
     <script src="assets/javascript/game.js"></script>
